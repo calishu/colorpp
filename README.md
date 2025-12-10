@@ -29,6 +29,7 @@ Or use meson wrap. Or CMake `FetchContent`.
 ```
 > [!NOTE]
 > The namespace `colors::ansi` is only used when colors adds to stream, not the function colors.
+
 \
 Pre-Defined Colors:
 |-Category-|-name-|
