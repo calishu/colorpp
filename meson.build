@@ -1,7 +1,7 @@
 project('colorpp', 'cpp')
 
 colorpp_dep = declare_dependency(
-    include_directories : include_directories('.')
+    include_directories : include_directories('./src/')
 )
 
 if get_option('example')
