@@ -12,8 +12,6 @@ Or use meson wrap. Or CMake `FetchContent`.
 ### Usage of the colors
 > [!NOTE]
 > If you have the `NO_COLOR` env var, it will not print colors, regardless if you enable manually or not.
-> [!NOTE]
-> The namespace `colors::ansi` is only used when colors adds to stream, not the function colors.
 
 ```cpp
     ...
@@ -29,6 +27,9 @@ Or use meson wrap. Or CMake `FetchContent`.
     std::cout << rgb_color('Hello, World!', col) << std::endl; // prints out 'Hello, World!' yet another time, but now it's white and not predefined by a macro.
     ...
 ```
+> [!NOTE]
+> The namespace `colors::ansi` is only used when colors adds to stream, not the function colors.
+\
 Pre-Defined Colors:
 |-Category-|-name-|
 |----------|------|
