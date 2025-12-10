@@ -5,6 +5,10 @@ Yet another color library for C++, I bet there are already thousands of them, an
 
 ## Documentation
 
+### Installation
+Well... it's one header. You can just drag and drop it.
+Or use meson wrap. Or CMake `FetchContent`.
+
 ### Usage of the colors
 > [!INFO]
 > If you have the `NO_COLOR` env var, it will not print colors, regardless if you enable manually or not.
