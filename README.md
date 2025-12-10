@@ -10,9 +10,9 @@ Well... it's one header. You can just drag and drop it.
 Or use meson wrap. Or CMake `FetchContent`.
 
 ### Usage of the colors
-> [!INFO]
+> [!NOTE]
 > If you have the `NO_COLOR` env var, it will not print colors, regardless if you enable manually or not.
-> [!INFO]
+> [!NOTE]
 > The namespace `colors::ansi` is only used when colors adds to stream, not the function colors.
 
 ```cpp
